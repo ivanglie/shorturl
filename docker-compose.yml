@@ -1,0 +1,11 @@
+version: "3"
+services:
+  shorturl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ivanglie/shorturl:latest
+    container_name: shorturl
+    restart: always
+    ports:
+      - "8080:8080"

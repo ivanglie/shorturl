@@ -1,0 +1,12 @@
+###
+curl http://localhost:8080/
+
+###
+curl -X POST -d "url=https://google.com" http://localhost:8080/shorten
+
+###
+curl http://localhost:8080/eJYZI2
+
+###
+curl http://localhost:8080/show
+
